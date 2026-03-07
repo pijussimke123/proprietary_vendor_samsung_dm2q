@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/dm2q/proprietary/vendor/etc/init/vendor.samsung.rilchip.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rilchip.qcom.rc \
     vendor/samsung/dm2q/proprietary/vendor/etc/init/vendor.samsung.rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.rild.rc \
-    vendor/samsung/dm2q/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
     vendor/samsung/dm2q/proprietary/vendor/etc/sensors/config/kailua_ak991x_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_1.json \
     vendor/samsung/dm2q/proprietary/vendor/etc/sensors/config/kailua_ak991x_2.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_2.json \
     vendor/samsung/dm2q/proprietary/vendor/etc/sensors/config/kailua_ak991x_3.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_3.json \
@@ -173,7 +172,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx564.bin \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/t_t10_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/t_t10_dual_calibration.bin \
     vendor/samsung/dm2q/proprietary/vendor/lib64/camera/uw_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/uw_dual_calibration.bin \
-    vendor/samsung/dm2q/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin
+    vendor/samsung/dm2q/proprietary/vendor/lib64/camera/w_dual_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/w_dual_calibration.bin \
+    vendor/samsung/dm2q/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
     SWPD_libTsAf_3K1_TELE \
